@@ -64,7 +64,7 @@ The credit score movement is determined based on a heuristic involving DPD, cred
 ### SHAP (SHapley Additive exPlanations)
 Global explanation method to understand feature importance across the test set. Uses TreeExplainer for interpreting the Random Forest model.
 
-<img alt = "shap_image" src = "">
+<img alt = "shap_image" src = "shap_plot.png">
 
 #### Key Insights:
 🔹 `dpd_last_3_months` is the most influential feature, strongly contributing to Class 0 (credit score decrease), but also affects all classes.
